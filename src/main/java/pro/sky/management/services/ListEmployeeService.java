@@ -61,7 +61,7 @@ public class ListEmployeeService implements EmployeeService{
 
     @Override
     public List<Employee> getEmployees() {
-        // не хочу отдавать ссылку на мой приватный список
+        // не хочу отдавать ссылку на мой приватный список =0
         return new ArrayList<>(employees);
     }
 
