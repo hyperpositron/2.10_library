@@ -1,13 +1,13 @@
-package pro.sky.library;
+package pro.sky.management;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class ManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(ManagementApplication.class, args);
 	}
 
 }
